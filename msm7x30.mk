@@ -64,17 +64,17 @@ PRODUCT_COPY_FILES += \
 
 # Offline charging animation
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/animations/$(TARGET_SCREEN_WIDTH)x$(TARGET_SCREEN_HEIGHT)/charging_animation_01.png:system/semc/chargemon/data/charging_animation_01.png \
-    $(COMMON_PATH)/animations/$(TARGET_SCREEN_WIDTH)x$(TARGET_SCREEN_HEIGHT)/charging_animation_02.png:system/semc/chargemon/data/charging_animation_02.png \
-    $(COMMON_PATH)/animations/$(TARGET_SCREEN_WIDTH)x$(TARGET_SCREEN_HEIGHT)/charging_animation_03.png:system/semc/chargemon/data/charging_animation_03.png \
-    $(COMMON_PATH)/animations/$(TARGET_SCREEN_WIDTH)x$(TARGET_SCREEN_HEIGHT)/charging_animation_04.png:system/semc/chargemon/data/charging_animation_04.png \
-    $(COMMON_PATH)/animations/$(TARGET_SCREEN_WIDTH)x$(TARGET_SCREEN_HEIGHT)/charging_animation_05.png:system/semc/chargemon/data/charging_animation_05.png \
-    $(COMMON_PATH)/animations/$(TARGET_SCREEN_WIDTH)x$(TARGET_SCREEN_HEIGHT)/charging_animation_06.png:system/semc/chargemon/data/charging_animation_06.png \
-    $(COMMON_PATH)/animations/$(TARGET_SCREEN_WIDTH)x$(TARGET_SCREEN_HEIGHT)/charging_animation_07.png:system/semc/chargemon/data/charging_animation_07.png
+    $(COMMON_PATH)/animations/SonyEricsson/charging_animation_01.png:system/semc/chargemon/data/charging_animation_01.png \
+    $(COMMON_PATH)/animations/SonyEricsson/charging_animation_02.png:system/semc/chargemon/data/charging_animation_02.png \
+    $(COMMON_PATH)/animations/SonyEricsson/charging_animation_03.png:system/semc/chargemon/data/charging_animation_03.png \
+    $(COMMON_PATH)/animations/SonyEricsson/charging_animation_04.png:system/semc/chargemon/data/charging_animation_04.png \
+    $(COMMON_PATH)/animations/SonyEricsson/charging_animation_05.png:system/semc/chargemon/data/charging_animation_05.png \
+    $(COMMON_PATH)/animations/SonyEricsson/charging_animation_06.png:system/semc/chargemon/data/charging_animation_06.png \
+    $(COMMON_PATH)/animations/SonyEricsson/charging_animation_07.png:system/semc/chargemon/data/charging_animation_07.png
 
 # Boot logo
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/bootlogo/$(TARGET_SCREEN_WIDTH)x$(TARGET_SCREEN_HEIGHT).rle:root/initlogo.rle
+    $(COMMON_PATH)/bootlogo/SonyEricsson.rle:root/initlogo.rle
 
 # Audio
 PRODUCT_PACKAGES += \
